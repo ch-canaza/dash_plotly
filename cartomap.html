@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Classification using variables | CARTO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <!--<script type="text/javascript" src="comunas3.js"></script> -->
+  <script src="https://libs.cartocdn.com/carto-vl/v1.4.4/carto-vl.min.js"></script>
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js"></script>
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css" rel="stylesheet" />
+  <link href="https://carto.com/developers/carto-vl/v1.4.4/examples/maps/style.css" rel="stylesheet">
+  
+  <style>
+    #controls li {
+      display: grid;
+      padding-top: 5px;
+    }
+
+    #nBuckets,
+    #nOpacity {
+      font-size: 10px;
+    }
+
+    .paletteSelector {
+      max-height: 200px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      list-style-image: none;
+    }
+
+    .paletteSelector li div {
+      height: 30px;
+    }
+
+    .paletteSelector li div.selected {
+      border: 2px black solid;
+    }
+
+    .paletteSelector li p {
+      position: relative;
+      top: 0px;
+      left: 5px;
+      font-size: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    --<iframe width="150%" height="300" frameborder="0" src="https://ch-canaza.carto.com/builder/8966c11e-87f7-444d-9ca5-6925b577690d/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+  </div> -->
+  
+   <!-- <div id="map"></div> -->
+  <aside class="toolbox">
+    <div class="box">
+      
+      <header>
+        <h1>Classification using variables</h1>
+      </header>
+      <section>
+        <p class="description open-sans">This example illustrates how to use variables for classification parameters to
+          build an interactive thematic mapping tool.
+        </p>
+      
+  <script>
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: carto.basemaps.voyager,
+      //center: [-88, 37],
+      center: [-76.5320, 3.4516],
+      zoom: 11
+    });
+
+    const nav = new mapboxgl.NavigationControl();
+    map.addControl(nav, 'top-left');
+    map.addControl(new mapboxgl.FullscreenControl(), 'top-left');
+
+    carto.setDefaultAuth({
+      username: 'cartovl',
+      apiKey: 'default_public'
+    });
+
+    const s = carto.expressions;
+
+    function vizFromSettings(settings) {
+      const stringViz = `
+        @input: $${settings.input}
+        @buckets: ${settings.buckets}
+        @palette: ${settings.palette}
+        @opacity: ${settings.opacity}
+
+        color: opacity(ramp(globalQuantiles(@input, @buckets), @palette), @opacity)
+        strokeColor: rgba(0,0,0,0.2)
+        strokeWidth: 1
+      `
+      return new carto.Viz(stringViz);
+    }
+
+    // Define layer --- pomner aquí la data --- 
+    //const source = new carto.source.Dataset('puestos_vot_cali');
+    //const source = new carto.source.GeoJSON('/home/holberton/dash_plotly/puestos.geojson');
+    //const source = new carto.source.GeoJSON(puestos);
+    const source = new carto.source.GeoJSON(comunas3);
+    
+    const viz = new carto.Viz(`
+      width: 10
+      color: red
+      strokeWidth: 0.5
+      strokeColor: #191970
+      
+    `);
+    ///
+    let initialSettings = {
+      input: 'comuna',
+      input: 'pct_trump',
+      buckets: 3,
+      palette: 'Burg',
+      opacity: 0.8
+    }
+
+    //const viz = vizFromSettings(initialSettings);
+    const layer = new carto.Layer('layer', source, viz);
+    layer.addTo(map, 'watername_ocean');
+
+    // Basic popup to check the input field values
+    const popup = new mapboxgl.Popup({
+      closeButton: false,
+      closeOnClick: false
+    });
+
+    const interactivity = new carto.Interactivity(layer);
+    interactivity.on('featureClick', event => {
+      if (event.features.length > 0) {
+        const firstFeature = event.features[0];
+        const value = firstFeature.variables.input.value.toFixed(2);
+        popup.setHTML(`<p><strong>${selectedColumnName()}</strong>: ${value}</p>`);
+        popup.setLngLat([event.coordinates.lng, event.coordinates.lat]);
+        if (!popup.isOpen()) {
+          popup.addTo(map);
+        }
+      } else {
+        popup.remove();
+      }
+    });
+
+    // Update variables with widgets
+    const $valueSelector = document.getElementById('valueSelector');
+    const $bucketsSelector = document.getElementById('bucketsSelector');
+    const $opacitySelector = document.getElementById('opacitySelector');
+    const $paletteSelectors = document.querySelectorAll('.paletteSelector div');
+
+    function selectedColumnName() {
+      return $valueSelector.options[$valueSelector.selectedIndex].value;
+    }
+
+    function updateViz() {
+      popup.remove();
+
+      const columnName = selectedColumnName();
+      viz.variables['input'] = s.property(columnName);
+      viz.variables['opacity'].blendTo(parseFloat($opacitySelector.value));
+      viz.variables['buckets'] = parseInt($bucketsSelector.value);
+
+      const paletteName = document.querySelector('.paletteSelector .selected p').innerText;
+      viz.variables['palette'] = s.palettes[paletteName.toUpperCase()];
+    }
+
+    // Handle widget changes
+    $valueSelector.addEventListener('change', () => {
+      updateViz();
+    });
+    $bucketsSelector.addEventListener('input', () => {
+      document.querySelector('#nBuckets').innerText = `${$bucketsSelector.value} buckets`;
+      updateViz();
+    });
+
+    $opacitySelector.addEventListener('input', () => {
+      document.querySelector('#nOpacity').innerText = `${$opacitySelector.value * 100}% opacity`;
+      updateViz();
+    });
+
+    $paletteSelectors.forEach((p) => p.addEventListener('click', () => {
+      // clear selected
+      $paletteSelectors.forEach((s) => s.classList.remove('selected'));
+      p.classList.add('selected');
+
+      updateViz();
+    }));
+  </script>
+</body>
+
+</html>
+      
