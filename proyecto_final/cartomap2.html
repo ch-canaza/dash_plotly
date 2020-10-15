@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Classification using variables | CARTO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <script type="text/javascript" src="comunas3.js"></script>
+  
+  <script type="text/javascript" src="comunas_parte1.js"></script>
+  <script type="text/javascript" src="puestos2.js"></script>
+  <script type="text/javascript" src="Barrios.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://libs.cartocdn.com/carto-vl/v1.4.4/carto-vl.min.js"></script>
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js"></script>
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css" rel="stylesheet" />
+  <link href="https://carto.com/developers/carto-vl/v1.4.4/examples/maps/style.css" rel="stylesheet">
+  
+  <style>
+    .mapboxgl-map {
+      background-color:blue;
+      
+      
+    margin: 100px;
+      
+    }
+    
+    </style>
+    
+ 
+</head>
+
+<body>
+  <!--div>
+    <iframe width="100%" height="520" frameborder="0" src="https://ch-canaza.carto.com/builder/8966c11e-87f7-444d-9ca5-6925b577690d/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></iframe>
+  </div-->
+  
+  <!-- div donde se encuentra el mapa --> 
+  <div id="map", width="50%", height=50%></div>
+
+  <!-- aside con datos -->
+
+  <aside class="toolbox">
+    <div class="box">
+      
+      <header>
+        <h1> capas</h1>
+      </header>
+      <section>
+        <div id="controls">
+          <div id="info">
+            <h3>seleccione capas:</h3>
+          </div>
+
+          <ul>
+            <li onclick="setComunas()">
+              <input type="checkbox" id="comunas">
+              <label for="comunas">Comunas</label>
+            </li>
+            <li onclick="setNeighborhood()">
+              <input type="checkbox" id="Neighborhood">
+              <label for="barrios">Barrios</label>
+            </li>
+            <li onclick="setCandidate()">
+              <input type="checkbox" id="candidate">
+              <label for="candidato">Candidato</label>
+            </li>
+          </ul>
+
+          <div id="info">
+            <h3>votos</h3>
+          </div>
+
+          <div class="widget">
+            <p class="open-sans">muestra por rango de votos  <span class="js-price-placeholder">min-max</span></p>
+          </div>
+          <input type="range" name="price" class="slider" min="1" max="60" value="40" step="1" min-with-suffix="1€" max-with-suffix="60€">
+        </div>
+      </section>
+      <br />
+      
+    </div>
+  </aside>
+  
+  <!-- script with map and layers -->
+  
+    <script class="screen">
+      const map = new mapboxgl.Map({
+        container: 'map',
+        style: carto.basemaps.voyager,
+       
+        center: [-76.5320, 3.4516],
+        zoom: 11
+      });
+
+     
+      // controles zoom, full screen, direccion //
+      
+
+      const nav = new mapboxgl.NavigationControl();
+      map.addControl(nav, 'top-left');
+      //map.addControl(new mapboxgl.FullscreenControl(), 'top-left');
+
+      carto.setDefaultAuth({
+        username: 'cartovl',
+        apiKey: 'default_public'
+      });
+
+      const s = carto.expressions;
+
+
+      // source-layer1  declaration //
+
+      const source1 = new carto.source.GeoJSON(comunas3);
+      
+      const viz = new carto.Viz(`
+       color:black
+        
+      `);
+
+      //  layer instantiation //
+     
+      const layer = new carto.Layer('comunas4', source1, viz);
+       
+      
+      
+      // source-layer2 declaration  //
+     
+      /*const source2 = new carto.source.GeoJSON(puestos2);
+      
+      const viz2 = new carto.Viz(`
+        
+        @clusterAverage: clusterAVG($votos)
+        @v_features: viewportFeatures(@clusterAverage)
+        @g_min: globalMIN(@clusterAverage)
+        @g_max: globalMAX(@clusterAverage)
+        @color: ramp(linear(@clusterAverage, @g_min, @g_max), [blue, turquoise, yellow, red])
+
+        width: 20
+        color: opacity(@color, 0.5)
+        strokeWidth: 0
+        resolution: 16
+    
+      `);*/
+     
+      const source2 = new carto.source.GeoJSON(puestos2);
+      
+      const viz2 = new carto.Viz(`
+
+        @votos: ($votos) / 0.2
+        @style: ramp(linear($votos,1,10),[#B10026, #FC4E2A, #FD8D3C, #FEB24C, #FFFFB2])
+        width: @votos
+        color: opacity(@style, 0.8)
+        strokeWidth: 2
+        strokeColor: opacity(@style, 0.8)
+
+        
+      `);
+
+    // layer instantiation //
+
+      const layer2 = new carto.Layer('puestos', source2, viz2);
+      
+  // source-layer3 declaration  //
+      
+  const source3 = new carto.source.GeoJSON(barrios);
+      
+      const viz3 = new carto.Viz(`
+        width: 3
+        color: black
+        strokeWidth: 0.5
+        strokeColor: #191970
+        
+      `);
+
+    // layer instantiation //
+
+      const layer3 = new carto.Layer('barrios', source3, viz3);     
+      // putting layers together on the map //
+     
+      //layer.addTo(map, 'watername_ocean');
+     
+      function setComunas() {
+        if($("#comunas").is(':checked')) {
+          layer.addTo(map, 'watername_ocean');
+          console.log('checked')
+         }else{
+          console.log('nothing')
+          layer.remove()
+         }  
+         }
+    
+    
+      function setNeighborhood() {
+      layer2.addTo(map, 'watername_ocean');
+      }
+      
+
+      function setCandidate() {
+      layer3.addTo(map, 'watername_ocean');
+      }
+
+     // INTERACTIVITY ///
+    
+    </script>
+  
+</body>
+
+</html>

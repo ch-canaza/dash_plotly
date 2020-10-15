@@ -1,0 +1,6096 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+ {
+  "type": "Feature",
+  "properties": {
+  "ID": "11",
+  "comuna": 1,
+
+  "place": "ESC. JOSE ACEVEDO Y GOMEZ",
+   "dirección": ""
+   },
+   "geometry": {
+   "type": "point",
+   "coordinates": [ 
+     -76.4987776,
+      3.4497528
+      ]
+    }
+ },
+ {
+  "type": "Feature",
+  "properties": {
+   "ID": "12",
+   "comuna": "1",
+
+
+  "place": "IE JOSE HOLGUIN GARCES",
+   "dirección": "AV 4A OESTE # 23-108"
+  },
+   "geometry": {
+   "type": "point",
+   "coordinates": [ 
+     -76.5672267,
+      3.4522712
+      ]
+    } 
+ },
+ {
+  "type": "Feature",
+  "properties": {
+   "ID": "13",
+   "comuna": "1",
+ 
+
+  "place": "IE JOSE CELESTINO MUTIS",
+   "dirección": "AV 7 B OESTE # 18-02"
+  },
+   "geometry": {
+   "type": "point",
+   "coordinates": [ 
+     -76.558991,
+      3.4547874
+      ]
+    }
+ },
+ {
+  "type": "Feature",
+  "properties": {
+   "ID": "14",
+   "comuna": "1",
+   
+
+  "place": "COLISEO BAJO AGUACATAL",
+   "dirección": "CL 8 OESTE #14-04"
+  },
+   "geometry": {
+   "type": "point",
+   "coordinates": [ 
+     -76.5504075,
+      3.458588
+   ] 
+  }
+},
+{
+  "type": "Feature",
+  "properties": { 
+   "ID": "15",
+   "comuna": "1",
+
+
+  "place": "IE CECILIA CABALLERO",
+   "dirección": "AV 5 OESTE # 34-100"
+  },
+   "geometry": {
+   "type": "point",
+   "coordinates": [ 
+     -76.5839673,
+      3.458284
+    ]  
+  }
+},
+{
+  "type": "Feature",
+  "properties": {   
+  "ID": "16",
+  "comuna": "1",
+
+
+  "place": "SEDE MARICE SINISTERRA TERRON",
+  "dirección": "CL 30 BIS OESTE No 4A-00"
+  },
+  "geometry": {
+   "type": "point",
+   "coordinates": [ 
+     -76.5034293,
+      3.4356066
+      ]
+    }
+ },
+ {
+  "type": "Feature",
+  "properties": {
+   "ID": "17",
+   "comuna": "1",
+
+
+  "place": "COL SANTA ISABEL DE HUNGRIA AG",
+   "dirección": "AV 9 OESTE No 19C 1- 100 AGUACATAL"
+  },
+   "geometry": {
+   "type": "point",
+   "coordinates": [ 
+     -76.562866,
+      3.456147
+      ]
+    }
+},
+{
+  "type": "Feature",
+  "properties": {
+  "comuna": "2",
+
+
+  "place": "INST UNIV. ANTONIO JOSE CAMACH",
+  "dirección": "AV 6N # 28-102" 
+  },
+  "geometry": { 
+  "type": "point",
+  "coordinates": [ 
+     -76.527417,
+      3.470426
+      ]
+    }
+},
+{
+  "type": "Feature",
+  "properties": {
+  "comuna": "2",
+
+
+  "place": "EDIFICIO FERROCARRILES NACION",
+  "dirección": "AV 3N #23N-59"
+  },
+  "geometry": { 
+  "type": "point",
+  "coordinates": [ 
+     "NA"
+  ]
+}
+},
+{
+ "type": "Feature",
+ "properties": {
+ "comuna": "2",
+
+
+  "place": "C.A.M.",
+ "dirección": "AV 2N CL 10 Y 11"
+  },
+  "geometry": {
+   "type": "point",
+   "coordinates": [ 
+     -76.5341862,
+      3.4541622
+      ]
+    }
+  },
+  
+ {
+  "type": "Feature",
+  "properties": {
+  "comuna": "2",
+
+  "place": "COLEGIO ODONTOLOGICO",
+  "dirección": "CL 13N #3N-13"
+  }, 
+  "geometry": {
+  "type": "point",
+  "coordinates": [ 
+     -76.5332079,
+      3.4561279
+      ]
+    }
+  }, 
+
+{
+"type": "Feature",
+"properties": {
+"comuna": "",
+"place": "ACADEMIA DE DIBUJO PROFESIONAL",
+"dirección": "CLL 27 N #6BN-50"
+  },
+  "geometry": { 
+   "type": "point",
+   "coordinates": [ 
+     -76.5310908,
+      3.4703731
+      ]
+    }
+  },
+ {
+  "type": "Feature",
+  "properties": {
+  "comuna": ""
+  "place": "COLEGIO HISPANOAMERICANO",
+  "dirección": "AV 3 CN #35N-55"
+  },
+  "geometry": {
+   "type": "point",
+   "coordinates": [ 
+     -76.5226165,
+      3.4730492
+      ]
+    }
+ },
+{
+"type": "Feature",
+"properties": {
+"comuna": "",
+  "place": "COL. MIGUEL CAMACHO PEREA",
+  "dirección": "AV 3N #44-100"
+   
+  },
+  "geometry":{
+   "type": "point",
+   "coordinates": [ 
+     -76.51626,
+     3.47885
+   ]    
+  }
+},
+{
+"type": "Feature",
+"properties": {  
+ "comuna": "2",
+  "place": "PARQUE DE LAS ORQUIDEAS",
+  "dirección": "AVDA 2 N # 47 - 02" 
+},
+"geometry": {
+   "type": "point",
+   "coordinates": [ 
+     "NA"
+    ]
+  }
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":"2"
+  "place": "I.E. SANTA CECILIA SEDE 2",
+  "dirección": "CLL. 62 # 28   N -00" 
+},
+"geometry" : {
+   "type": "point",
+   "coordinates": [ 
+     -76.5087163,
+      3.4878507
+      ]
+    }
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna": "2",
+  "place": "ESCUELA REPUBLICA DEL BRASIL",
+  "dirección":"CLL 43N No 7N-03" 
+},
+"geometry": {
+   "type": "point",
+   "coordinates": [ 
+     -76.5285707,
+      3.4821234
+      ]
+    }
+  },
+{
+"type": "Feature",
+"properties": {   
+ "comuna":"2",
+  "place": "ESCUELA BRISAS DE LOS ALAMOS",
+  "dirección": "AV 2 BN CL 72 AN"
+},
+"geometry":{
+   "type": "point",
+   "coordinates": [ 
+    -76.5047,
+    3.49148
+  ]
+  
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "CLUB DE LEONES LA MERCED",
+  "dirección": 
+  : "2","
+   type": "point",
+   "coordinates": [ 
+     -76.5197023,
+      3.4793603
+      ]
+   CL 44 N #3D-40",
+  
+,
+ {
+   D": "41",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ASAMBLEA DEPARTAMENTAL",
+  "dirección": 
+  : "3","
+   type": "point",
+   "coordinates": [ 
+     -76.533796"    3.448539"
+      ]   "FIELD6": "CL9 #8-60 EDIF. SAN LUIS"
+   D": "42",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA CARLOS A. SARDI",
+  "dirección": 
+  : "3","
+   type": "point",
+   "coordinates": [ 
+     -76.5394269,
+      3.4479693
+      ]
+   KR 5 #2-69",
+  
+,
+ {
+   D": "43",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "COLEGIO SANTA LIBRADA",
+  "dirección": 
+  : "3","
+   type": "point",
+   "coordinates": [ 
+     -76.53555",   "FIELD5": "3.44117",    CL 7 #14A
+      ]6"
+   D": "44",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "NORMAL SUPERIOR LOS FARALLONE",
+  "dirección": 
+  : "3","
+   type": "point",
+   "coordinates": [ 
+     -76.5433147,
+      3.4423579
+      ]
+   KR 22 #2 OESTE-65",
+  
+,
+ {
+   D": "45",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA REPUBLICA DE MEXICO",
+  "dirección": 
+  : "3","
+   type": "point",
+   "coordinates": [ 
+     -76.5251874,
+      3.4541701
+      ]
+   CL 20 #5-63",
+  
+,
+ {
+   D": "51",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "SEDE MANUELA BELTRAN",
+  "dirección": 
+  : "4","
+   type": "point",
+   "coordinates": [ 
+     -76.5141649,
+      3.4631201
+      ]
+   CARRERA 2 No. 34 -23",
+  
+,
+ {
+   D": "52",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA JOSE ANTONIO GALAN",
+  "dirección": 
+  : "4","
+   type": "point",
+   "coordinates": [ 
+     -76.5129636,    3.46914",
+      ]  "FIELD6": "CL 41N #3N-11"
+   D": "53",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA RAFAEL ZAMORANO",
+  "dirección": 
+  : "4","
+   type": "point",
+   "coordinates": [ 
+     -76.50948",   "FIELD5": "3.47208",    KR 2N #45
+      ]-12"
+   D": "54",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "COLEGIO INEM",
+  "dirección": 
+  : "4","
+   type": "point",
+   "coordinates": [ 
+     -76.5024047,
+      3.4824072
+      ]
+   KR 5N #61-126",
+  
+,
+ {
+   D": "55",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "COLEGIO CASD SEDE SANTO TOMAS",
+  "dirección": 
+  : "4","
+   type": "point",
+   "coordinates": [ 
+     -76.5166737,
+      3.4665891
+      ]
+   CL 34 #3 N 15",
+  
+,
+ {
+   D": "56",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "SEDE SAN VICENTE DE PAUL",
+  "dirección": 
+  : "4","
+   type": "point",
+   "coordinates": [ 
+     -76.5061",
+  ""  .46547"
+]  "FIELD6": "CARRERA 2B No. 45A - 20 SALOMIA{
+   D": "61",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "S.E.N.A.",
+  "dirección": 
+  : "5","
+   type": "point",
+   "coordinates": [ 
+     -76.4998164,
+      3.4678756
+      ]
+   CL 52 2B-15",
+  
+,
+ {
+   D": "62",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA CELMIRA BUENO DE OREJU",
+  "dirección": 
+  : "5","
+   type": "point",
+   "coordinates": [ 
+     -76.4930579,
+      3.4781918
+      ]
+   CLL 62B No 1A9-250",
+  
+,
+ {
+   D": "63",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA MARIANO OSPINA PEREZ",
+  "dirección": 
+  : "5","
+   type": "point",
+   "coordinates": [ 
+     -76.4889535,
+      3.4722895
+      ]
+   CLL 67 CR 2",
+  
+,
+ {
+   D": "64",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA MARIA PANESSO",
+  "dirección": 
+  : "5","
+   type": "point",
+   "coordinates": [ 
+     -76.5034805,
+      3.4652358
+      ]
+   CL 46C #3-00",
+  
+,
+ {
+   D": "65",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA MARIO LLOREDA",
+  "dirección": 
+  : "5","
+   type": "point",
+   "coordinates": [ 
+     -76.50347",   "FIELD5": "3.47108",    KR 1D #51
+      ]6"
+   D": "71",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "POLIDEPORTIVO LOS GUADUALES",
+  "dirección": 
+  : "6","
+   type": "point",
+   "coordinates": [ 
+     -76.5021883,
+      3.4889402
+      ]
+   KR 9 N #71-35",
+  
+,
+ {
+   D": "72",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA LAS AMERICAS",
+  "dirección": 
+  : "6","
+   type": "point",
+   "coordinates": [ 
+     -76.507665"    3.447118"
+      ]   "FIELD6": "CL 82A KR 3N"
+   D": "73",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA PABLO EMILIO CAICEDO",
+  "dirección": 
+  : "6","
+   type": "point",
+   "coordinates": [ 
+     -76.48993",   "FIELD5": "3.4934",    CRA 5 DG 
+      ]-39"
+   D": "74",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "SANTA ISABEL DE HUNGRIA CALIMI",
+  "dirección": 
+  : "6","
+   type": "point",
+   "coordinates": [ 
+     -76.4853",
+  ""  .48878"
+]  "FIELD6": "CLL 73A No 1A2-165{
+   D": "75",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "SEDE CECILIA MUÑOZ RICAURTE",
+  "dirección": 
+  : "6","
+   type": "point",
+   "coordinates": [ 
+     -76.4796108,
+      3.4751938
+      ]
+   CL 78N #8N-02",
+  
+,
+ {
+   D": "81",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA SAN JORGE",
+  "dirección": 
+  : "6","
+   type": "point",
+   "coordinates": [ 
+     -76.4810383,
+      3.4754597
+      ]
+   CR 1i # 74-23",
+  
+,
+ {
+   D": "82",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA SAN LUIS",
+  "dirección": 
+  : "6","
+   type": "point",
+   "coordinates": [ 
+     -76.4863631,
+      3.4800625
+      ]
+   CL 72 #1 B-03",
+  
+,
+ {
+   D": "83",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA TRES DE JULIO",
+  "dirección": 
+  : "6","
+   type": "point",
+   "coordinates": [ 
+     -76.4860573,
+      3.4746964
+      ]
+   CL 70 C #1F-00",
+  
+,
+ {
+   D": "84",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA ATANASIO GIRARDOT",
+  "dirección": 
+  : "6","
+   type": "point",
+   "coordinates": [ 
+     -76.49129",   "FIELD5": "3.48763",    CL 70C No
+      ]A 3-00"
+   D": "85",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "UNIDAD DEPORTIVA PETECUY II",
+  "dirección": 
+  : "7","
+   type": "point",
+   "coordinates": [ 
+     -76.4821095,
+      3.4795128
+      ]
+   CL 74 #1C1-75",
+  
+,
+ {
+   D": "91",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "COL STA ISABEL  HUNGRIA ALFONS",
+  "dirección": 
+  : "7","
+   type": "point",
+   "coordinates": [ 
+     -76.47998",   "FIELD5": "3.45944",    CR 7H BIS
+      ]o 76-25 ALFONSO LOPEZ II"
+   D": "92",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA LOS FARALLONES",
+  "dirección": 
+  : "7","
+   type": "point",
+   "coordinates": [ 
+     -76.48183",   "FIELD5": "3.45846",    KR 7J #72
+      ]0"
+   D": "93",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "COL. VICENTE BORRERO COSTA",
+  "dirección": 
+  : "7","
+   type": "point",
+   "coordinates": [ 
+     -76.4802126,
+      3.4535258
+      ]
+   CLL 76 N. CR 7S",
+  
+,
+ {
+   D": "94",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA MANUEL MARIA MALLARINO",
+  "dirección": 
+  : "7","
+   type": "point",
+   "coordinates": [ 
+     -76.479273"    3.448598"
+      ]   "FIELD6": "CR 9A # 78-14"
+   D": "95",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "IE JUAN BAUTISTA DE LA SALLE",
+  "dirección": 
+  : "7","
+   type": "point",
+   "coordinates": [ 
+     -76.48195",   "FIELD5": "3.44866",    CLL 74 No
+      ]-19"
+   D": "101",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "IE MANUEL MARIA MALLARINO CEIB",
+  "dirección": 
+  : "7","
+   type": "point",
+   "coordinates": [ 
+     -76.4883637,
+      3.4576662
+      ]
+   CR 7L BIS  No 63-01",
+  
+,
+ {
+   D": "102",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA CARLOS HOLGUIN SARDI",
+  "dirección": 
+  : "7","
+   type": "point",
+   "coordinates": [ 
+     -76.48785",   "FIELD5": "3.46044",    KR 7 D BI
+      ]CL 64"
+   D": "103",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA ANA MARIA VERNAZA",
+  "dirección": 
+  : "7","
+   type": "point",
+   "coordinates": [ 
+     -76.4845305,
+      3.4504302
+      ]
+   CL 72B #8B-37",
+  
+,
+ {
+   D": "104",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "IE SIETE DE AGOSTO",
+  "dirección": 
+  : "7","
+   type": "point",
+   "coordinates": [ 
+     -76.48695",   "FIELD5": "3.44751",    CLL 72 No
+      ]1C-27"
+   D": "111",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA MANUEL REBOLLEDO",
+  "dirección": 
+  : "8","
+   type": "point",
+   "coordinates": [ 
+     -76.510649"    3.43982",
+      ]  "FIELD6": "DG 23 #17F-00"
+   D": "112",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "INST TEC COMERCIAL LAS AMERICA",
+  "dirección": 
+  : "8","
+   type": "point",
+   "coordinates": [ 
+     -76.507665"    3.447118"
+      ]   "FIELD6": "CR 12 No 38-58"
+   D": "113",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "COLEGIO SANTA FE",
+  "dirección": 
+  : "8","
+   type": "point",
+   "coordinates": [ 
+     -76.5078154,
+      3.4413114
+      ]
+   CL 34 #17 B-41",
+  
+,
+ {
+   D": "114",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "IE BENJAMIN HERRERA",
+  "dirección": 
+  : "8","
+   type": "point",
+   "coordinates": [ 
+     -76.5175418,
+      3.4470664
+      ]
+   CLL 26 No 12-34",
+  
+,
+ {
+   D": "121",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "COLEGIO LEON DE GREIFF",
+  "dirección": 
+  : "8","
+   type": "point",
+   "coordinates": [ 
+     -76.5000031,
+      3.4473629
+      ]
+   CALLE 51 No. 12A-30 VILLA COLOMBIA",
+  
+,
+ {
+   D": "NA",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "COLEGIO NUESTRA SRA DE LA ANUNCIACION",
+  "dirección": 
+  : "8","
+   type": "point",
+   "coordinates": [ 
+     -76.49654",   "FIELD5": "3.44461",    CLL. 56 #
+      ]3 - 65"
+   D": "122",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "IE ALBERTO CARVAJAL BORRERO",
+  "dirección": 
+  : "8","
+   type": "point",
+   "coordinates": [ 
+     -76.4951",
+  ""  .44372"
+]  "FIELD6": "CRA 14 #58-00{
+   D": "123",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "COLEGIO SAN FRANCISCO DE ASIS",
+  "dirección": 
+  : "8","
+   type": "point",
+   "coordinates": [ 
+     -76.4996997,
+      3.4448261
+      ]
+   CL 52 CON CRA 15",
+  
+,
+ {
+   D": "131",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA MARCO FIDEL SUAREZ",
+  "dirección": 
+  : "9","
+   type": "point",
+   "coordinates": [ 
+     -76.53491",   "FIELD5": "3.44032",    KR 16 #6-
+      ]"
+   D": "132",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESC NUESTRA SEÑORA DE LOS REME",
+  "dirección": 
+  : "9","
+   type": "point",
+   "coordinates": [ 
+     -76.52224",   "FIELD5": "3.44055",    CR 17D No
+      ]8-46"
+   D": "133",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA REPUBLICA DE ARGENTINA",
+  "dirección": 
+  : "9","
+   type": "point",
+   "coordinates": [ 
+     -76.5253527,
+      3.4501564
+      ]
+   CR 11D No 23-49",
+  
+,
+ {
+   D": "134",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "ESCUELA OLGA LUCIA LLOREDA",
+  "dirección": 
+  : "9","
+   type": "point",
+   "coordinates": [ 
+     -76.526922"    3.435283"
+      ]   "FIELD6": "KR 23A #13B-11"
+   D": "135",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "IE ANTONIO JOSE CAMACHO",
+  "dirección": 
+  : "9","
+   type": "point",
+   "coordinates": [ 
+     -76.529554"    3.441738"
+      ]   "FIELD6": "CRA 16 No 12-00 B. GUAYAQUIL"
+   D": "136",
+},
+{
+"type": "Feature",
+"properties": {   
+ "comuna":
+  "place": "COLEGIO LA SANTISIMA TRINIDAD",
+  "dirección": 
+  : "9","
+   type": "point",
+   "coordinates": [ 
+     -76.5258241,
+      3.4406835
+      ]
+   KR 18 #15-41",
+  
+ 
+ {
+   D": "141",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "SD REPUBLICA DE COSTA RICA",
+   },"dirección": 
+   omuna": "10","t
+   ype": "point",
+   "coordinates": [ 
+     -76.52701",   "FIELD5": "3.415761",
+  CRA 40 No
+      ]4C-00"
+   D": "142",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA FERNANDO VELASCO",
+   },"dirección": 
+   omuna": "10","t
+   ype": "point",
+   "coordinates": [ 
+     -76.522957"
+  3.410869"
+      ]   "FIELD6": "CL 23 #44A-16"
+   D": "143",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "IE NORMAL SUPERIOR SANTIAGO",
+   },"dirección": 
+   omuna": "10","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5312026,
+      3.4238588
+      ]
+   CR 33A No 12-60",
+  
+ 
+ {
+   D": "144",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "IE CARLOS HOLGUIN LLOREDA",
+   },"dirección": 
+   omuna": "10","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5226125,
+      3.4186777
+      ]
+   CR 40 No 18-85",
+  
+ 
+ {
+   D": "151",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "CENTRO PARROQUIAL SAN JUAN BAU",
+   },"dirección": 
+   omuna": "10","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5298963,
+      3.4155741
+      ]
+   CR 42 No 13B-35",
+  
+ 
+ {
+   D": "152",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA SAN ROQUE",
+   },"dirección": 
+   omuna": "10","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5254442,
+      3.4249692
+      ]
+   KR 32A #15A-59",
+  
+ 
+ {
+   D": "153",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO RAFAEL NAVIA VARON",
+   },"dirección": 
+   omuna": "10","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5361798,
+      3.4135467
+      ]
+   CL 11 # 46-40",
+  
+ 
+ {
+   D": "154",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA GENERAL CARLOS ALBAN",
+   },"dirección": 
+   omuna": "10","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5250097,
+      3.4318291
+      ]
+   CL 18 A #24 – 65",
+  
+ 
+ {
+   D": "161",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "AGUSTIN NIETO CABALLERO",
+   },"dirección": 
+   omuna": "11","t
+   ype": "point",
+   "coordinates": [ 
+     -76.519582"
+  3.411376"
+      ]   "FIELD6": "CR 37 # 26C-51"
+   D": "162",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "IE CIUDAD MODELO",
+   },"dirección": 
+   omuna": "11","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5138189,
+      3.4181281
+      ]
+   CR 40B No 31C-00",
+  
+ 
+ {
+   D": "163",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA  MARINO RENGIFO SALCED",
+   },"dirección": 
+   omuna": "11","t
+   ype": "point",
+   "coordinates": [ 
+     -76.51958",   "FIELD5": "3.41137",
+  CLL 26B N
+      ]44-11"
+   D": "164",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA SUSANA VINASCO DE QUIN",
+   },"dirección": 
+   omuna": "11","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5135098,
+      3.4236781
+      ]
+   CLL 31 CR 33A",
+  
+ 
+ {
+   D": "171",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA JOSE VICENTE CONCHA",
+   },"dirección": 
+   omuna": "11","t
+   ype": "point",
+   "coordinates": [ 
+     -76.513824"
+  3.426381"
+      ]   "FIELD6": "KR 30A #30A-37"
+   D": "172",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA ALFREDO VASQUEZ COBO",
+   },"dirección": 
+   omuna": "11","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5139424,
+      3.4350186
+      ]
+   DG 23 # TRANS 25-25",
+  
+ 
+ {
+   D": "173",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "IE 10 DE MAYO",
+   },"dirección": 
+   omuna": "11","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5180856,
+      3.4319299
+      ]
+   CR 25A No 26A-13",
+  
+ 
+ {
+   D": "174",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "CDI MADRE ALBERTA FE Y ALEGRIA",
+   },"dirección": 
+   omuna": "11","t
+   ype": "point",
+   "coordinates": [ 
+     -76.506962"
+  3.422688"
+      ]   "FIELD6": "DG 30 #32B-49"
+   D": "183",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO HERNANDO NAVIA VARON",
+   },"dirección": 
+   omuna": "12","t
+   ype": "point",
+   "coordinates": [ 
+     -76.499578"
+      3.4327184
+      ]
+   KR 26P #50-39",
+  
+ 
+ {
+   D": "1804",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA FENALCO ASTURIAS",
+   },"dirección": 
+   omuna": "12","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5005345,
+      3.4366958
+      ]",
+   CL 44 #25A-12",
+  
+ 
+ {
+   D": "-",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "IE MARICE SINISTERRA",
+   },"dirección": 
+   omuna": "12","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5033647",
+      3.4356639
+      ]",
+   CLL 39 No 25 A -43",
+  
+ 
+ {
+   D": "-",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA CIUDAD DE CALI",
+   },"dirección": 
+   omuna": "12","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5039553",
+      3.4272629
+      ]",
+   CL 46 #28F-31",
+  
+ 
+ {
+   D": "1805",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "IE JULIO DE CAICEDO Y TELLEZ",
+   },"dirección": 
+   omuna": "12","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4946839",
+      3.4402175
+      ]",
+   CLL 59 No 24E-40",
+  
+ 
+ {
+   D": "1806",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO LA PRESENTACION EL PAR",
+   },"dirección": 
+   omuna": "12","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5065390",
+      3.4306091
+      ]",
+   CR 28 B # 33E-39",
+  
+ 
+ {
+   D": "1901",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COL PARROQUIAL SEÑOR DE LOS MI",
+   },"dirección": 
+   omuna": "13","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5008287",
+      3.4171989
+      ]",
+   CR 33 No 42C-11",
+  
+ 
+ {
+   D": "1902",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA EL DIAMANTE",
+   },"dirección": 
+   omuna": "13","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5019078",
+      3.4199780
+      ]",
+   KR 31 #41-00",
+  
+ 
+ {
+   D": "1903",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA RODRIGO LLOREDA",
+   },"dirección": 
+   omuna": "13","t
+   ype": "point",
+   "coordinates": [ 
+     N/A",
+   "  /A",
+  
+   ]ELD6": "KR 30 #44A-21"
+   D": "1904",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA MIGUEL CAMACHO PEREA",
+   },"dirección": 
+   omuna": "13","t
+   ype": "point",
+   "coordinates": [ 
+     N/A",
+   "  /A",
+  
+   ]ELD6": "CR 28 No 72F-09"
+   D": "1905",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "CENTRO DE CAPACITACION DON BOS",
+   },"dirección": 
+   omuna": "13","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5029431",
+      3.4215256
+      ]",
+   CR 31 No 39-42",
+  
+ 
+ {
+   D": "-",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO COMFANDI CALIPSO",
+   },"dirección": 
+   omuna": "13","t
+   ype": "point",
+   "coordinates": [ 
+     -76.50034",   "FIELD5": "3.42641",
+  CLL. 70 #
+      ]8 D3 - 129 CALIPSO"
+   D": "2001",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA SANTA ROSA",
+   },"dirección": 
+   omuna": "13","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4882714",
+      3.4222699
+      ]",
+   CL 72X No 28 3-35",
+  
+ 
+ {
+   D": "2002",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO LOS LAGOS",
+   },"dirección": 
+   omuna": "13","t
+   ype": "point",
+   "coordinates": [ 
+     76.48547784,
+      3.4305149
+      ]",
+   CL 72U #26-H3-15",
+  
+ 
+ {
+   D": "2003",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA BARTOLOME LOBOGUERRERO",
+   },"dirección": 
+   omuna": "13","t
+   ype": "point",
+   "coordinates": [ 
+     -76.49376",   "FIELD5": "3.43607",
+  CLL 71 No
+      ]6E-25"
+   D": "2004",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "SENA CDTI",
+   },"dirección": 
+   omuna": "13","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4911149",
+      3.4312057
+      ]",
+   CALLE 72 K  26J-97",
+  
+ 
+ {
+   D": "2005",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO JESUS VILLAFAÑE FRANCO",
+   },"dirección": 
+   omuna": "13","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4873548",
+      3.4326592
+      ]",
+   CLL 72 P CON CR 26H2 ES",
+  
+ 
+ {
+   D": "2006",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO ENRIQUE OLAYA HERRERA",
+   },"dirección": 
+   omuna": "13","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4916341,
+      3.4392364
+      ]",
+   CL 71 #25 A-15",
+  
+ 
+ {
+   D": "2101",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA LA ANUNCIACION",
+   },"dirección": 
+   omuna": "14","t
+   ype": "point",
+   "coordinates": [ 
+     -76.47988",   "FIELD5": "3.43958",
+  KR 26A #7
+      ]00"
+   D": "2102",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "INSTITUCION EDUCATIVA PUERTA D",
+   },"dirección": 
+   omuna": "14","t
+   ype": "point",
+   "coordinates": [ 
+     N/A",
+   "  /A",
+  
+   ]ELD6": "CLL 84 No 26B- 04"
+   D": "2103",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA RAUL SILVA HOLGUIN",
+   },"dirección": 
+   omuna": "14","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4810884",
+      3.4275176
+      ]",
+   DG 26K #T83-24",
+  
+ 
+ {
+   D": "2104",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "IE MONSEÑOR RAMON ARCILA",
+   },"dirección": 
+   omuna": "14","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4812440",
+      3.4282459
+      ]",
+   DG 26i3 No 80A-18",
+  
+ 
+ {
+   D": "2201",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COL FRAY LUIS AMIGO - FE Y ALE",
+   },"dirección": 
+   omuna": "14","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4711941",
+  3.41836",
+      ]  "FIELD6": "CLL 116 No 26K1-15"
+   D": "2202",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA GABRIELA MISTRAL",
+   },"dirección": 
+   omuna": "14","t
+   ype": "point",
+   "coordinates": [ 
+     N/A",
+   "  /A",
+  
+   ]ELD6": "KR 27D N° 95-06"
+   D": "2203",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COL PARROQUIAL SAN FRANCISCO J",
+   },"dirección": 
+   omuna": "14","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4770904",
+      3.4152783
+      ]",
+   CR 27 D No 107 B-16",
+  
+ 
+ {
+   D": "2204",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "IE ELIAS SALAZAR GARCIA",
+   },"dirección": 
+   omuna": "14","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4718885,
+      3.4238014
+      ]",
+   CLL 108 No 26H1-11",
+  
+ 
+ {
+   D": "2205",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "INSTITUCION EDUCATIVA NUEVO LA",
+   },"dirección": 
+   omuna": "14","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4872790",
+      3.4193033
+      ],
+   CLL 76 No 28-20",
+  
+ 
+ {
+   D": "2301",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO CIUDAD DE CORDOBA",
+   },"dirección": 
+   omuna": "15","t
+   ype": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+  FIE
+   ]6": "CL 50 #50-00"
+   D": "2302",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA OLAYA HERRERA",
+   },"dirección": 
+   omuna": "15","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5013728",
+      3.4072749
+      ]",
+   CL 51 #40A-08",
+  
+ 
+ {
+   D": "2303",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA JOSE RAMON BEJARANO",
+   },"dirección": 
+   omuna": "15","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4959318",
+      3.4137556
+      ],
+   KR 32A #49-00",
+  
+ 
+ {
+   D": "2304",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "IE GABRIEL GARCIA MARQUEZ",
+   },"dirección": 
+   omuna": "15","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4931316,
+      3.4122670
+      ]",
+   CR 29B No 54-00",
+  
+ 
+ {
+   D": "2305",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA NIÑO JESUS DE ATOCHA",
+   },"dirección": 
+   omuna": "15","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4884663",
+      3.4149638
+      ]",
+   CLL 83 No 28 E3-05",
+  
+ 
+ {
+   D": "2306",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "IE CARLOS HOLGUIN MALLARINO",
+   },"dirección": 
+   omuna": "15","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4919997",
+      3.4111268
+      ]",
+   CLL 55A No 30B-50",
+  
+ 
+ {
+   D": "2307",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO MADRE SIFFREDI-FE Y AL",
+   },"dirección": 
+   omuna": "15","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4984551",
+      3.4062654
+      ]",
+   CR 39 E No 54-02",
+  
+ 
+ {
+   D": "2308",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "IE LLANO VERDE",
+   },"dirección": 
+   omuna": "15","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5054858",
+      3.3932569
+      ]",
+   CRA 47 CLL 57 ESQ. B. LLANO VERDE",
+  
+ 
+ {
+   D": "2401",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "IE RODRIGO LLOREDA- INTENALCO",
+   },"dirección": 
+   omuna": "16","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5186608",
+      3.4067032
+      ]",
+   CLL 38 A No 47A-45",
+  
+ 
+ {
+   D": "2402",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA CRISTOBAL COLON",
+   },"dirección": 
+   omuna": "16","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5149125,
+      3.4026108
+      ]",
+   CL 44 #47A-16",
+  
+ 
+ {
+   D": "2403",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA CARLOS HOLMES TRUJILLO",
+   },"dirección": 
+   omuna": "16","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5106088",
+      3.4061731
+      ]",
+   CLL 44 CR 43",
+  
+ 
+ {
+   D": "2404",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA PABLO NERUDA",
+   },"dirección": 
+   omuna": "16","t
+   ype": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+  FIE
+   ]6": "KR 39B #38-44"
+   D": "2405",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "SEDE CRISTO MAESTRO",
+   },"dirección": 
+   omuna": "16","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5129048",
+      3.4129899
+      ]",
+   CL 44 CRA 41F",
+  
+ 
+ {
+   D": "2406",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "SANTA ISABEL DE HUNGRIA S. CIU",
+   },"dirección": 
+   omuna": "16","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5170890",
+      3.3970000
+      ]",
+   CR 54 No 41-47",
+  
+ 
+ {
+   D": "2407",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "I.E. LIBARDO MADRID VALDERRAMA",
+   },"dirección": 
+   omuna": "16","t
+   ype": "point",
+   "coordinates": [ 
+     -76.511494"
+      3.4120742
+      ]",
+   CRA 41H # 39-73",
+  
+ 
+ {
+   D": "2501",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO LOS ANDES",
+   },"dirección": 
+   omuna": "17","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5397001",
+      3.3938673
+      ]",
+   CRA 70 #12-55",
+  
+ 
+ {
+   D": "2502",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO COMFANDI",
+   },"dirección": 
+   omuna": "17","t
+   ype": "point",
+   "coordinates": [ 
+     N/A",
+   "  /A",
+  
+   ]ELD6": "CALLE 34  No. 83B-50"
+   D": "2503",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO REYES CATOLICOS",
+   },"dirección": 
+   omuna": "17","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5338431",
+      3.3923807
+      ]",
+   CL 13 C No 70-72",
+  
+ 
+ {
+   D": "2504",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "UNIVALLE SEDE MELENDEZ",
+   },"dirección": 
+   omuna": "17","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5333593",
+      3.3742892
+      ]",
+   CALLE 13 No. 100 - 00 C. UNIVERSITARIA",
+  
+ 
+ {
+   D": "2601",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA LUIS CARLOS ROJAS",
+   },"dirección": 
+   omuna": "17","t
+   ype": "point",
+   "coordinates": [ 
+     3.403870496-76.53220066",
+      ",
+  FI
+   ]D6": "CRA 56 #13F-40"
+   D": "2602",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "C.V.C",
+   },"dirección": 
+   omuna": "17","t
+   ype": "point",
+   "coordinates": [ 
+     N/A",
+   "  /A",
+  
+   ]ELD6": "KR 56 #11-36"
+   D": "2603",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "CENTRO CULTURAL COLOMBO AMERIC",
+   },"dirección": 
+   omuna": "17","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5375114",
+      3.4075975
+      ]",
+   CR 53 No 11 A -00",
+  
+ 
+ {
+   D": "2604",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "I.E.T.I.COMUNA 17",
+   },"dirección": 
+   omuna": "17","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5236229",
+      3.4037205
+      ]",
+   CRA 53 No. 18A-25",
+  
+ 
+ {
+   D": "2701",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA ALVARO ESCOBAR NAVIA",
+   },"dirección": 
+   omuna": "18","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5545059",
+      3.3906918
+      ]",
+   CRA 73D #1B-65",
+  
+ 
+ {
+   D": "2702",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "INSTITUTO CENTRAL DE COMERCIO",
+   },"dirección": 
+   omuna": "18","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5468294",
+      3.3920734
+      ]",
+   CARRERA 73 No. 3C -65",
+  
+ 
+ {
+   D": "2703",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA JUAN PABLO II",
+   },"dirección": 
+   omuna": "18","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5558416",
+      3.3866595
+      ]",
+   CL 1 OESTE #78-23",
+  
+ 
+ {
+   D": "2704",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA PORTETE DE TARQUI",
+   },"dirección": 
+   omuna": "18","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5563512",
+      3.3909703
+      ]",
+   CL 1 #73-00",
+  
+ 
+ {
+   D": "2705",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "UNIVERSIDAD COOPERATIVA",
+   },"dirección": 
+   omuna": "18","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5509224",
+      3.3910720
+      ],
+   KR 73 #2A-80",
+  
+ 
+ {
+   D": "2801",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA LA ESPERANZA",
+   },"dirección": 
+   omuna": "18","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5549350",
+      3.3762867
+      ]",
+   KR 94 #1A-71 OESTE",
+  
+ 
+ {
+   D": "2802",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO AMERICANO",
+   },"dirección": 
+   omuna": "18","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5447699",
+      3.3784309
+      ]",
+   CR 89 # 4 C-35 MELENDEZ",
+  
+ 
+ {
+   D": "2803",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESC MAGDALENA ORTEGA DE NARIÑO",
+   },"dirección": 
+   omuna": "18","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5591139",
+      3.3747873
+      ]",
+   CLL 4 OESTE No 94-56",
+  
+ 
+ {
+   D": "2804",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ACADEMIA JOSE MARIA CABAL",
+   },"dirección": 
+   omuna": "18","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5592171",
+      3.3820498
+      ]",
+   CALLE 2C OESTE No. 83 - 20",
+  
+ 
+ {
+   D": "2901",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "INST EDUC  EUSTAQUIO PALACIOS",
+   },"dirección": 
+   omuna": "19","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5530253",
+      3.4158762
+      ]",
+   CR 52 No 2-51",
+  
+ 
+ {
+   D": "2902",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "INSTITUTO PARA NIÑOS CIEGOS Y",
+   },"dirección": 
+   omuna": "19","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5441794,
+      3.4275391
+      ]",
+   CR 38 # 5 B1-39",
+  
+ 
+ {
+   D": "2903",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COL SANTA MARIA STELLA MARIS",
+   },"dirección": 
+   omuna": "19","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5490900",
+      3.4268397
+      ]",
+   CRA 38B No 3-190 B. SANTA ISABEL",
+  
+ 
+ {
+   D": "2904",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA 25 DE JULIO",
+   },"dirección": 
+   omuna": "19","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5454668",
+      3.4057929
+      ]",
+   CL 6 #59 A-51",
+  
+ 
+ {
+   D": "2905",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO POLITECNICO",
+   },"dirección": 
+   omuna": "19","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5537391",
+      3.4037803
+      ]",
+   CRA 62 #2-28",
+  
+ 
+ {
+   D": "3001",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "UNIVALLE SEDE SAN FERNANDO",
+   },"dirección": 
+   omuna": "19","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5467704",
+      3.4312981
+      ],
+   CL 4B #36-00",
+  
+ 
+ {
+   D": "3002",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "UNID.DEP.PANAM.CANCHA DE TEJO",
+   },"dirección": 
+   omuna": "19","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5379674",
+      3.4223449
+      ],
+   CL 9 CON CRA 38",
+  
+ 
+ {
+   D": "3003",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "LICEO DEPARTAMENTAL FEMENINO",
+   },"dirección": 
+   omuna": "19","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5391153",
+      3.4234105
+      ]",
+   CRA 37A #8-38",
+  
+ 
+ {
+   D": "3004",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA FRANCISCO JOSE DE CALD",
+   },"dirección": 
+   omuna": "19","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5525478",
+      3.4452205
+      ]",
+   CR 4 OESTE # 12A-59",
+  
+ 
+ {
+   D": "3005",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA CAMILO TORRES",
+   },"dirección": 
+   omuna": "19","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5303284",
+      3.4321870
+      ]",
+   KR 24 #10A-98",
+  
+ 
+ {
+   D": "3006",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA GRAN COLOMBIA",
+   },"dirección": 
+   omuna": "19","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5370822",
+      3.4358390
+      ],
+   KR 24 #7-74",
+  
+ 
+ {
+   D": "3007",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "SEDE LOS CRISTALES",
+   },"dirección": 
+   omuna": "19","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5491200",
+      3.4419648
+      ]",
+   CL 11 OESTE #24C-50",
+  
+ 
+ {
+   D": "3101",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA REPUBLICA DE PANAMA",
+   },"dirección": 
+   omuna": "20","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5630031",
+      3.4150194
+      ]",
+   DG 48 #12-06 OESTE",
+  
+ 
+ {
+   D": "3102",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA LUIS LOPEZ DE MESA",
+   },"dirección": 
+   omuna": "20","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5546936",
+      3.4239513
+      ]",
+   CL 3 OESTE #42 B-44",
+  
+ 
+ {
+   D": "3103",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "IE JUANA DE CAICEDO Y CUERO",
+   },"dirección": 
+   omuna": "20","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5532881",
+      3.4173970
+      ]",
+   CLL 1 OESTE # 50-85",
+ },
+ {
+   D": "3104",},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "SEDE GENERAL ANZOATEGUI",
+   },"dirección": 
+   "comuna": "",
+   "type": "point",
+   "coordinates": [ 
+     N/A",
+   "  /A",
+  
+   ]ELD6": "CLL 1A OESTE # 43-68"
+   D": "-",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "SEDE SIMON BOLIVAR",
+   },"dirección": 
+   omuna": "20","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5525800",
+      3.4222110
+      ]",
+   CLL 1 OESTE No 42A-94",
+  
+ 
+ {
+   D": "3105",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA CELANESE",
+   },"dirección": 
+   omuna": "20","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5531969",
+      3.4284815
+      ],
+   CL 5 OESTE #38 B-28",
+  
+ 
+ {
+   D": "3106",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA SOFIA CAMARGO",
+   },"dirección": 
+   omuna": "20","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5615118",
+      3.4183716
+      ]",
+   KR 51 CL 12 A OESTE",
+  
+ 
+ {
+   D": "3201",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "ESCUELA ANTONIO MACEO PIZAMOS",
+   },"dirección": 
+   omuna": "21","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4748335",
+      3.4000250
+      ]",
+   CR 28G # 122 D- 00",
+  
+ 
+ {
+   D": "3202",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "STA ISABEL DE HUNGRIA CALIMIO",
+   },"dirección": 
+   omuna": "21","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4634073",
+      3.4276408
+      ]",
+   CLL 123 # 26 M3-01",
+  
+ 
+ {
+   D": "3203",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "SANTA ISABEL DE HUNGRIA SAN FE",
+   },"dirección": 
+   omuna": "21","t
+   ype": "point",
+   "coordinates": [ 
+     N/A",
+   "  /A",
+  
+   ]ELD6": "CLL 119 CON CR 23 ESQUINA"
+   D": "3204",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO FUNDACION COMPARTIR",
+   },"dirección": 
+   omuna": "21","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4699948",
+      3.4309876
+      ]",
+   KR-25A #89 A-16",
+  
+ 
+ {
+   D": "3205",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "FUNDACION COLEGIO NARIÑO",
+   },"dirección": 
+   omuna": "21","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4711160",
+      3.4354053
+      ]",
+   KR 24 F #82-90",
+  
+ 
+ {
+   D": "3206",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO POTREROGRANDE",
+   },"dirección": 
+   omuna": "21","t
+   ype": "point",
+   "coordinates": [ 
+     -76.4695618",
+      3.4079948
+      ]",
+   CRA 28D ENTRE CLS 123 Y 124",
+  
+ 
+ {
+   D": "3301",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "COLEGIO BENETT",
+   },"dirección": 
+   omuna": "22","t
+   ype": "point",
+   "coordinates": [ 
+     N/A",
+   "  /A",
+  
+   ]ELD6": "KR106 CL17 ESQ. AVENIDA CASCAJAL"
+   D": "3302",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "UNIVERSIDAD DE SAN BUENAVENTUR",
+   },"dirección": 
+   omuna": "22","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5438897",
+      3.3448571
+      ]",
+   AV 10 DE MAYO LA UMBRIA",
+  
+ 
+ {
+   D": "-",
+  },
+  {
+"type": "Feature",
+"properties": { 
+
+  "place": "UNIVERSIDAD ICESI",
+   },"dirección": 
+   omuna": "22","t
+   ype": "point",
+   "coordinates": [ 
+     -76.5438897",
+      3.3448571
+      ]",
+   CALL. 18 # 122 - 135 PANCE",
+ },
+ {
+   D": "9001",},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "COLISEO DEL PUEBLO",
+   },"dirección": 
+   "comuna": "",
+   "type": "point",
+   "coordinates": [ 
+     -76.5518404,
+      3.4134079
+      ]
+   CRA 52 ENTRE CALLES 2 Y 3",
+ },
+ {
+   D": "9801",},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CARCEL VILLANUEVA",
+   },"dirección": 
+   "comuna": "",
+   "type": "point",
+   "coordinates": [ 
+     -76.5114510",
+      3.4320799
+      ],
+   TRANS 25 #31-116",
+  
+ 
+ {
+   D": "9909",
+   "coGIMIENTO 2},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "FELIDIA",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.6271680",
+      3.4669903
+      ]",
+   I.E.FELIDIA-SEDE REP.DE CUBA",
+  
+ 
+ {
+   D": "9917",
+   "coGIMIENTO 2},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "LA BUITRERA",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.5628636",
+      3.3646500
+      ]",
+   I.E. MARIA GARCIA TOLEDO-KM 3",
+  
+ 
+ {
+   D": "9919",
+   "coGIMIENTO 2},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "LA SIRENA",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.5749228",
+      3.4087595
+      ]",
+   I.E. SANTA LUISA",
+  
+ 
+ {
+   D": "9921",
+   "coGIMIENTO 2},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "LA CASTILLA",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.5763410",
+      3.4938764
+      ]",
+   I.E SAGRADO CORAZON DE JESUS",
+  
+ 
+ {
+   D": "9925",
+   "coGIMIENTO 2},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "LA ELVIRA",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.6076029",
+      3.5201408
+      ]",
+   ESCUELA BOYACA",
+  
+ 
+ {
+   D": "9929",
+   "coGIMIENTO 2},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "LA LEONERA",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.6343928",
+      3.4545537
+      ]",
+   SEDE CULTURAL LA LEONERA",
+  
+ 
+ {
+   D": "9933",
+   "coGIMIENTO 2},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "LA PAZ",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.5698856",
+      3.5205317
+      ]",
+   I.E SAAVEDRA GALINDO LA PAZ",
+  
+ 
+ {
+   D": "9937",
+   "coGIMIENTO 3},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "GOLONDRINAS",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.5512818",
+      3.4981719
+      ]",
+   I.E GOLONDRINAS",
+  
+ 
+ {
+   D": "9941",
+   "coGIMIENTO 3},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "LOS ANDES",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.5827938",
+      3.4105447
+      ]",
+   VDA Ventiaderos-ESC. TIERRA DE HOMBRES",
+  
+ 
+ {
+   D": "9945",
+   "coGIMIENTO 3},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "VILLA CARMELO",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.6162449",
+      3.3784769
+      ]",
+   I.E.CACIQUE CALARCA-VDA LA FONDA",
+  
+ 
+ {
+   D": "9947",
+   "coGIMIENTO 3},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "MONTEBELLO",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.5507766",
+      3.4859397
+      ]",
+   IE MONTEBELLO ANTONIO RICAURTE",
+  
+ 
+ {
+   D": "9949",
+   "coGIMIENTO 3},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "NAVARRO",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.46557",   "FIELD5": "3.39188",
+      I.E. JU
+      ]AUTISTA DE LA SALLE"
+   D": "9953",
+   "coGIMIENTO 3},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "PANCE",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.59111",   "FIELD5": "3.34424",
+      I.E. PA
+      ]VDA LA VORAGINE"
+   D": "9957",
+   "coGIMIENTO 3},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "PICHINDE",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.61377",   "FIELD5": "3.4373",
+      I.E. PI
+      ]DE SEDE HOLGUIN GARCES"
+   D": "9965",
+   "coGIMIENTO 3},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "EL SALADITO",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.60633",   "FIELD5": "3.48273",
+      ESC. LU
+      ]ERNANDO LLOREDA"
+   D": "9913",
+   "coGIMIENTO HORMIGUERO 2},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "HORMIGUERO A",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.4787",
+  ""  .31236"
+]  "FIELD6": "I.E. ANTONIO VILLAVICENCIO{
+   D": "-",
+   "coGIMIENTO HORMIGUERO 2},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "HORMIGUERO B",
+   },"dirección": 
+   muna": "CORRE"ty
+   pe": "point",
+   "coordinates": [ 
+     -76.4653696",
+      3.3919929
+      ]",
+   U AUTONOMA DEL OCCIDENTE",
+ },
+ {
+   D": "comuna",},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "",
+   },"dirección": 
+   "comuna": "",
+   "type": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA",
+   "co},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "DIRECCIÓN",
+   },"dirección": 
+   muna": "PUEST"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 1",
+   "coJOSE ACEVEDO Y GOME},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "AV 5 OESTE No.30-164",
+   },"dirección": 
+   muna": "ESC. "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 1",
+   "coSE HOLGUIN GARCE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "AV 4A OESTE # 23-108",
+   },"dirección": 
+   muna": "IE JO"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 1",
+   "coSE CELESTINO MUTI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "AV 7 B OESTE # 18-02",
+   },"dirección": 
+   muna": "IE JO"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 1",
+   "coEO BAJO AGUACATA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 8 OESTE #14-04",
+   },"dirección": 
+   muna": "COLIS"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 1",
+   "coCILIA CABALLER},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "AV 5 OESTE # 34-100",
+   },"dirección": 
+   muna": "IE CE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 1",
+   "coMARICE SINISTERRA TERRO},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 30 BIS OESTE No 4A-00",
+   },"dirección": 
+   muna": "SEDE "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 1",
+   "coANTA ISABEL DE HUNGRIA A},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "AV 9 OESTE No 19C 1- 100 AGUACATAL",
+   },"dirección": 
+   muna": "COL S"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 2",
+   "coUNIV. ANTONIO JOSE CAMAC},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "AV 6N # 28-102",
+   },"dirección": 
+   muna": "INST "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 2",
+   "coCIO FERROCARRILES NACIO},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "AV 3N #23N-59",
+   },"dirección": 
+   muna": "EDIFI"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 2",
+   "co},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "AV 2N CL 10 Y 11",
+   },"dirección": 
+   muna": "C.A.M"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 2",
+   "coIO ODONTOLOGIC},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 13N #3N-13",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 2",
+   "coMIA DE DIBUJO PROFESIONA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 27 N #6BN-50",
+   },"dirección": 
+   muna": "ACADE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 2",
+   "coIO HISPANOAMERICAN},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "AV 3 CN #35N-55",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 2",
+   "coE DE LAS ORQUIDEA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "AVDA 2 N # 47 - 02",
+   },"dirección": 
+   muna": "PARQU"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 2",
+   "coSANTA CECILIA SEDE },
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL. 62 # 28   N -00",
+   },"dirección": 
+   muna": "I.E. "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 2",
+   "coLA REPUBLICA DEL BRASI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 43N No 7N-03",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 2",
+   "coLA BRISAS DE LOS ALAMO},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "AV 2 BN CL 72 AN",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 2",
+   "coDE LEONES LA MERCE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 44 N #3D-40",
+   },"dirección": 
+   muna": "CLUB "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 3",
+   "coLEA DEPARTAMENTA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL9 #8-60 EDIF. SAN LUIS",
+   },"dirección": 
+   muna": "ASAMB"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 3",
+   "coLA CARLOS A. SARD},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 5 #2-69",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 3",
+   "coIO SANTA LIBRAD},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 7 #14A-06",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 3",
+   "coL SUPERIOR LOS FARALLON},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 22 #2 OESTE-65",
+   },"dirección": 
+   muna": "NORMA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 3",
+   "coLA REPUBLICA DE MEXIC},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 20 #5-63",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 4",
+   "coMANUELA BELTRA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CARRERA 2 No. 34 -23",
+   },"dirección": 
+   muna": "SEDE "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 4",
+   "coLA JOSE ANTONIO GALA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 41N #3N-11",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 4",
+   "coLA RAFAEL ZAMORAN},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 2N #45AN-12",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 4",
+   "coIO INE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 5N #61-126",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 4",
+   "coIO CASD SEDE SANTO TOMA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 34 #3 N 15",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 4",
+   "coSAN VICENTE DE PAU},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CARRERA 2B No. 45A - 20 SALOMIA",
+   },"dirección": 
+   muna": "SEDE "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 5",
+   "co.A},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 52 2B-15",
+   },"dirección": 
+   muna": "S.E.N"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 5",
+   "coLA CELMIRA BUENO DE OREJ},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 62B No 1A9-250",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 5",
+   "coLA MARIANO OSPINA PERE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 67 CR 2",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 5",
+   "coLA MARIA PANESS},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 46C #3-00",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 5",
+   "coLA MARIO LLORED},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 1D #51-16",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 6",
+   "coEPORTIVO LOS GUADUALE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 9 N #71-35",
+   },"dirección": 
+   muna": "POLID"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 6",
+   "coLA LAS AMERICA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 82A KR 3N",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 6",
+   "coLA PABLO EMILIO CAICED},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CRA 5 DG 7N-39",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 6",
+   "co ISABEL DE HUNGRIA CALIM},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 73A No 1A2-165",
+   },"dirección": 
+   muna": "SANTA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 6",
+   "coCECILIA MUÑOZ RICAURT},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 78N #8N-02",
+   },"dirección": 
+   muna": "SEDE "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 6",
+   "coLA SAN JORG},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 1i # 74-23",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 6",
+   "coLA SAN LUI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 72 #1 B-03",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 6",
+   "coLA TRES DE JULI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 70 C #1F-00",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 6",
+   "coLA ATANASIO GIRARDO},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 70C No 1A 3-00",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 7",
+   "coD DEPORTIVA PETECUY I},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 74 #1C1-75",
+   },"dirección": 
+   muna": "UNIDA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 7",
+   "coTA ISABEL  HUNGRIA ALFON},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 7H BIS No 76-25 ALFONSO LOPEZ II",
+   },"dirección": 
+   muna": "COL S"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 7",
+   "coLA LOS FARALLONE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 7J #72-10",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 7",
+   "coVICENTE BORRERO COST},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 76 N. CR 7S",
+   },"dirección": 
+   muna": "COL. "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 7",
+   "coLA MANUEL MARIA MALLARIN},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 9A # 78-14",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   " 
+   "FIE
+   ]6": ""
+   D": "comuna",},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "",
+   },"dirección": 
+   "comuna": "",
+   "type": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA",
+   "co},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "DIRECCIÓN",
+   },"dirección": 
+   muna": "PUEST"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 7",
+   "coAN BAUTISTA DE LA SALL},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 74 No 9-19",
+   },"dirección": 
+   muna": "IE JU"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 7",
+   "coNUEL MARIA MALLARINO CEI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 7L BIS  No 63-01",
+   },"dirección": 
+   muna": "IE MA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 7",
+   "coLA CARLOS HOLGUIN SARD},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 7 D BIS CL 64",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 7",
+   "coLA ANA MARIA VERNAZ},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 72B #8B-37",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 7",
+   "coETE DE AGOST},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 72 No 11C-27",
+   },"dirección": 
+   muna": "IE SI"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 8",
+   "coLA MANUEL REBOLLED},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "DG 23 #17F-00",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 8",
+   "coTEC COMERCIAL LAS AMERIC},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 12 No 38-58",
+   },"dirección": 
+   muna": "INST "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 8",
+   "coIO SANTA F},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 34 #17 B-41",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 8",
+   "coNJAMIN HERRER},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 26 No 12-34",
+   },"dirección": 
+   muna": "IE BE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 8",
+   "coIO LEON DE GREIF},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CALLE 51 No. 12A-30 VILLA COLOMBIA",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 8",
+   "coIO NUESTRA SRA DE LA ANUNCIACIO},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL. 56 # 13 - 65",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 8",
+   "coIO SAN FRANCISCO DE ASI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 52 CON CRA 15",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 9",
+   "coLA MARCO FIDEL SUARE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 16 #6-61",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 9",
+   "coUESTRA SEÑORA DE LOS REM},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 17D No 18-46",
+   },"dirección": 
+   muna": "ESC N"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 9",
+   "coLA REPUBLICA DE ARGENTIN},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 11D No 23-49",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 9",
+   "coLA OLGA LUCIA LLORED},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 23A #13B-11",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 9",
+   "coTONIO JOSE CAMACH},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CRA 16 No 12-00 B. GUAYAQUIL",
+   },"dirección": 
+   muna": "IE AN"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 9",
+   "coIO LA SANTISIMA TRINIDA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 18 #15-41",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 10",
+   "coPUBLICA DE COSTA RIC},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CRA 40 No 14C-00",
+   },"dirección": 
+   muna": "SD RE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 10",
+   "coLA FERNANDO VELASC},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 23 #44A-16",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 10",
+   "coRMAL SUPERIOR SANTIAG},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 33A No 12-60",
+   },"dirección": 
+   muna": "IE NO"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 10",
+   "coRLOS HOLGUIN LLORED},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 40 No 18-85",
+   },"dirección": 
+   muna": "IE CA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 10",
+   "coO PARROQUIAL SAN JUAN BA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 42 No 13B-35",
+   },"dirección": 
+   muna": "CENTR"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 10",
+   "coLA SAN ROQU},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 32A #15A-59",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 10",
+   "coIO RAFAEL NAVIA VARO},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 11 # 46-40",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 10",
+   "coLA GENERAL CARLOS ALBA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 18 A #24 – 65",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 11",
+   "coIN NIETO CABALLER},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 37 # 26C-51",
+   },"dirección": 
+   muna": "AGUST"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 11",
+   "coUDAD MODEL},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 40B No 31C-00",
+   },"dirección": 
+   muna": "IE CI"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 11",
+   "coLA  MARINO RENGIFO SALCE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 26B No 44-11",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 11",
+   "coLA SUSANA VINASCO DE QUI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 31 CR 33A",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 11",
+   "coLA JOSE VICENTE CONCH},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 30A #30A-37",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 11",
+   "coLA ALFREDO VASQUEZ COB},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "DG 23 # TRANS 25-25",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 11",
+   "co DE MAY},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 25A No 26A-13",
+   },"dirección": 
+   muna": "IE 10"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 11",
+   "coADRE ALBERTA FE Y ALEGRI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "DG 30 #32B-49",
+   },"dirección": 
+   muna": "CDI M"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 12",
+   "coLA CIUDAD DE CAL},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 46 #28F-31",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 12",
+   "coRICE SINISTERR},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 39 No 25 A -43",
+   },"dirección": 
+   muna": "IE MA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 12",
+   "coIO HERNANDO NAVIA VARO},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 26P #50-39",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 12",
+   "coLA FENALCO ASTURIA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 44 #25A-12",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 12",
+   "coLIO DE CAICEDO Y TELLE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 59 No 24E-40",
+   },"dirección": 
+   muna": "IE JU"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 12",
+   "coIO LA PRESENTACION EL PA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 28 B # 33E-39",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 13",
+   "coARROQUIAL SEÑOR DE LOS M},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 33 No 42C-11",
+   },"dirección": 
+   muna": "COL P"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 13",
+   "coLA EL DIAMANT},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 31 #41-00",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 13",
+   "coLA RODRIGO LLORED},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 30 #44A-21",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 13",
+   "coLA MIGUEL CAMACHO PERE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 28 No 72F-09",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 13",
+   "coO DE CAPACITACION DON BO},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 31 No 39-42",
+   },"dirección": 
+   muna": "CENTR"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 13",
+   "coIO COMFANDI CALIPS},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL. 70 # 28 D3 - 129 CALIPSO",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 13",
+   "coLA SANTA ROS},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 72X No 28 3-35",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 13",
+   "coIO LOS LAGO},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 72U #26-H3-15",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   " 
+   "FIE
+   ]6": ""
+   D": "comuna",},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "",
+   },"dirección": 
+   "comuna": "",
+   "type": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA",
+   "co},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "DIRECCIÓN",
+   },"dirección": 
+   muna": "PUEST"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 13",
+   "coLA BARTOLOME LOBOGUERRER},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 71 No 26E-25",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 13",
+   "coCDT},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CALLE 72 K  26J-97",
+   },"dirección": 
+   muna": "SENA "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 13",
+   "coIO JESUS VILLAFAÑE FRANC},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 72 P CON CR 26H2 ES",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 13",
+   "coIO ENRIQUE OLAYA HERRER},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 71 #25 A-15",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 14",
+   "coLA LA ANUNCIACIO},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 26A #74-00",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 14",
+   "coTUCION EDUCATIVA PUERTA },
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 84 No 26B- 04",
+   },"dirección": 
+   muna": "INSTI"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 14",
+   "coLA RAUL SILVA HOLGUI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "DG 26K #T83-24",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 14",
+   "coNSEÑOR RAMON ARCIL},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "DG 26i3 No 80A-18",
+   },"dirección": 
+   muna": "IE MO"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 14",
+   "coRAY LUIS AMIGO - FE Y AL},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 116 No 26K1-15",
+   },"dirección": 
+   muna": "COL F"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 14",
+   "coLA GABRIELA MISTRA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 27D N° 95-06",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 14",
+   "coARROQUIAL SAN FRANCISCO },
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 27 D No 107 B-16",
+   },"dirección": 
+   muna": "COL P"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 14",
+   "coIAS SALAZAR GARCI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 108 No 26H1-11",
+   },"dirección": 
+   muna": "IE EL"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 14",
+   "coTUCION EDUCATIVA NUEVO L},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 76 No 28-20",
+   },"dirección": 
+   muna": "INSTI"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 15",
+   "coIO CIUDAD DE CORDOB},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 50 #50-00",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 15",
+   "coLA OLAYA HERRER},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 51 #40A-08",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 15",
+   "coLA JOSE RAMON BEJARAN},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 32A #49-00",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 15",
+   "coBRIEL GARCIA MARQUE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 29B No 54-00",
+   },"dirección": 
+   muna": "IE GA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 15",
+   "coLA NIÑO JESUS DE ATOCH},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 83 No 28 E3-05",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 15",
+   "coRLOS HOLGUIN MALLARIN},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 55A No 30B-50",
+   },"dirección": 
+   muna": "IE CA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 15",
+   "coIO MADRE SIFFREDI-FE Y A},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 39 E No 54-02",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 15",
+   "coANO VERD},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CRA 47 CLL 57 ESQ. B. LLANO VERDE",
+   },"dirección": 
+   muna": "IE LL"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 16",
+   "coDRIGO LLOREDA- INTENALC},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 38 A No 47A-45",
+   },"dirección": 
+   muna": "IE RO"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 16",
+   "coLA CRISTOBAL COLO},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 44 #47A-16",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 16",
+   "coLA CARLOS HOLMES TRUJILL},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 44 CR 43",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 16",
+   "coLA PABLO NERUD},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 39B #38-44",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 16",
+   "coCRISTO MAESTR},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 44 CRA 41F",
+   },"dirección": 
+   muna": "SEDE "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 16",
+   "co ISABEL DE HUNGRIA S. CI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 54 No 41-47",
+   },"dirección": 
+   muna": "SANTA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 16",
+   "coLIBARDO MADRID VALDERRAM},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CRA 41H # 39-73",
+   },"dirección": 
+   muna": "I.E. "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 17",
+   "coIO LOS ANDE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CRA 70 #12-55",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 17",
+   "coIO COMFAND},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CALLE 34  No. 83B-50",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 17",
+   "coIO REYES CATOLICO},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 13 C No 70-72",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 17",
+   "coLLE SEDE MELENDE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CALLE 13 No. 100 - 00 C. UNIVERSITARIA",
+   },"dirección": 
+   muna": "UNIVA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 17",
+   "coLA LUIS CARLOS ROJA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CRA 56 #13F-40",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 17",
+   "c},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 56 #11-36",
+   },"dirección": 
+   muna": "C.V.C"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 17",
+   "coO CULTURAL COLOMBO AMERI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 53 No 11 A -00",
+   },"dirección": 
+   muna": "CENTR"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 17",
+   "co.I.COMUNA 1},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CRA 53 No. 18A-25",
+   },"dirección": 
+   muna": "I.E.T"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 18",
+   "coLA ALVARO ESCOBAR NAVI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CRA 73D #1B-65",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 18",
+   "coTUTO CENTRAL DE COMERCI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CARRERA 73 No. 3C -65",
+   },"dirección": 
+   muna": "INSTI"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 18",
+   "coLA JUAN PABLO I},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 1 OESTE #78-23",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 18",
+   "coLA PORTETE DE TARQU},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 1 #73-00",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 18",
+   "coRSIDAD COOPERATIV},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 73 #2A-80",
+   },"dirección": 
+   muna": "UNIVE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 18",
+   "coLA LA ESPERANZ},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 94 #1A-71 OESTE",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 18",
+   "coIO AMERICAN},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 89 # 4 C-35 MELENDEZ",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 18",
+   "coAGDALENA ORTEGA DE NARIÑ},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 4 OESTE No 94-56",
+   },"dirección": 
+   muna": "ESC M"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 18",
+   "coMIA JOSE MARIA CABA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CALLE 2C OESTE No. 83 - 20",
+   },"dirección": 
+   muna": "ACADE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 19",
+   "coEDUC  EUSTAQUIO PALACIO},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 52 No 2-51",
+   },"dirección": 
+   muna": "INST "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 19",
+   "coTUTO PARA NIÑOS CIEGOS },
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 38 # 5 B1-39",
+   },"dirección": 
+   muna": "INSTI"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 19",
+   "coANTA MARIA STELLA MARI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CRA 38B No 3-190 B. SANTA ISABEL",
+   },"dirección": 
+   muna": "COL S"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   " 
+   "FIE
+   ]6": ""
+   D": "comuna",},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "",
+   },"dirección": 
+   "comuna": "",
+   "type": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA",
+   "co},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "DIRECCIÓN",
+   },"dirección": 
+   muna": "PUEST"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 19",
+   "coLA 25 DE JULI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 6 #59 A-51",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 19",
+   "coIO POLITECNIC},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CRA 62 #2-28",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 19",
+   "coLLE SEDE SAN FERNAND},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 4B #36-00",
+   },"dirección": 
+   muna": "UNIVA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 19",
+   "coDEP.PANAM.CANCHA DE TEJ},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 9 CON CRA 38",
+   },"dirección": 
+   muna": "UNID."ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 19",
+   "co DEPARTAMENTAL FEMENIN},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CRA 37A #8-38",
+   },"dirección": 
+   muna": "LICEO"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 19",
+   "coLA FRANCISCO JOSE DE CAL},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 4 OESTE # 12A-59",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 19",
+   "coLA CAMILO TORRE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 24 #10A-98",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 19",
+   "coLA GRAN COLOMBI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 24 #7-74",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 19",
+   "coLOS CRISTALE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 11 OESTE #24C-50",
+   },"dirección": 
+   muna": "SEDE "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 20",
+   "coLA REPUBLICA DE PANAM},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "DG 48 #12-06 OESTE",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 20",
+   "coLA LUIS LOPEZ DE MES},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 3 OESTE #42 B-44",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 20",
+   "coANA DE CAICEDO Y CUER},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 1 OESTE # 50-85",
+   },"dirección": 
+   muna": "IE JU"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 20",
+   "coSIMON BOLIVA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 1 OESTE No 42A-94",
+   },"dirección": 
+   muna": "SEDE "ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 20",
+   "coLA CELANES},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CL 5 OESTE #38 B-28",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 20",
+   "coLA SOFIA CAMARG},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 51 CL 12 A OESTE",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 21",
+   "coLA ANTONIO MACEO PIZAMO},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CR 28G # 122 D- 00",
+   },"dirección": 
+   muna": "ESCUE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 21",
+   "coSABEL DE HUNGRIA CALIMI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 123 # 26 M3-01",
+   },"dirección": 
+   muna": "STA I"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 21",
+   "co ISABEL DE HUNGRIA SAN F},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CLL 119 CON CR 23 ESQUINA",
+   },"dirección": 
+   muna": "SANTA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 21",
+   "coIO FUNDACION COMPARTI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR-25A #89 A-16",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 21",
+   "coCION COLEGIO NARIÑ},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR 24 F #82-90",
+   },"dirección": 
+   muna": "FUNDA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 21",
+   "coIO POTREROGRAND},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CRA 28D ENTRE CLS 123 Y 124",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 22",
+   "coIO BENET},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "KR106 CL17 ESQ. AVENIDA CASCAJAL",
+   },"dirección": 
+   muna": "COLEG"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 22",
+   "coRSIDAD DE SAN BUENAVENTU},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "AV 10 DE MAYO LA UMBRIA",
+   },"dirección": 
+   muna": "UNIVE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "COMUNA 22",
+   "coRSIDAD ICES},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CALL. 18 # 122 - 135 PANCE",
+   },"dirección": 
+   muna": "UNIVE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "",
+   "coEO DEL PUEBL},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "CRA 52 ENTRE CALLES 2 Y 3",
+   },"dirección": 
+   muna": "COLIS"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "",
+   "coL VILLANUEV},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "TRANS 25 #31-116",
+   },"dirección": 
+   muna": "CARCE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 23",
+   "coI},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "I.E.FELIDIA-SEDE REP.DE CUBA",
+   },"dirección": 
+   muna": "FELID"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 24",
+   "coITRER},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "I.E. MARIA GARCIA TOLEDO-KM 3",
+   },"dirección": 
+   muna": "LA BU"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 25",
+   "coREN},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "I.E. SANTA LUISA",
+   },"dirección": 
+   muna": "LA SI"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 26",
+   "coSTILL},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "I.E SAGRADO CORAZON DE JESUS",
+   },"dirección": 
+   muna": "LA CA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 27",
+   "coVIR},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "ESCUELA BOYACA",
+   },"dirección": 
+   muna": "LA EL"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 28",
+   "coONER},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "SEDE CULTURAL LA LEONERA",
+   },"dirección": 
+   muna": "LA LE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 29",
+   "co},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "I.E SAAVEDRA GALINDO LA PAZ",
+   },"dirección": 
+   muna": "LA PA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 30",
+   "coDRINA},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "I.E GOLONDRINAS",
+   },"dirección": 
+   muna": "GOLON"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 31",
+   "coNDE},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "VDA Ventiaderos-ESC. TIERRA DE HOMBRES",
+   },"dirección": 
+   muna": "LOS A"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 32",
+   "co CARMEL},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "I.E.CACIQUE CALARCA-VDA LA FONDA",
+   },"dirección": 
+   muna": "VILLA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 33",
+   "coBELL},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "IE MONTEBELLO ANTONIO RICAURTE",
+   },"dirección": 
+   muna": "MONTE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 34",
+   "coR},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "I.E. JUAN BAUTISTA DE LA SALLE",
+   },"dirección": 
+   muna": "NAVAR"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 35",
+   "c},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "I.E. PANCE-VDA LA VORAGINE",
+   },"dirección": 
+   muna": "PANCE"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 36",
+   "coND},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "I.E. PICHINDE SEDE HOLGUIN GARCES",
+   },"dirección": 
+   muna": "PICHI"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO 37",
+   "coLADIT},
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "ESC. LUIS FERNANDO LLOREDA",
+   },"dirección": 
+   muna": "EL SA"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO HORMIGUERO 24",
+   "coGUERO },
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "I.E. ANTONIO VILLAVICENCIO",
+   },"dirección": 
+   muna": "HORMI"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "F
+   ]6": ""
+   D": "CORREGIMIENTO HORMIGUERO 24",
+   "coGUERO },
+   {
+"type": "Feature",
+"properties": {
+
+  "place": "U AUTONOMA DEL OCCIDENTE",
+   },"dirección": 
+   muna": "HORMI"ty
+   pe": "point",
+   "coordinates": [ 
+     ",
+   "  ,
+   "FIE
+   ]6": "
