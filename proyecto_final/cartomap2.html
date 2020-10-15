@@ -50,7 +50,7 @@
       <section>
         <div id="controls">
           <div id="info">
-            <h3>seleccione capas:</h3>
+            <h4>seleccione capas:</h4>
           </div>
 
           <ul>
@@ -63,12 +63,16 @@
               <label for="barrios">Barrios</label>
             </li>
             <li onclick="setCandidate()">
-              <input type="checkbox" id="candidate">
+              <input type="checkbox" id="candidate" checked>
               <label for="candidato">Candidato</label>
+            </li>
+            <li onclick="setPlace()">
+              <input type="checkbox" id="place">
+              <label for="place">Puesto de votacion</label>
             </li>
           </ul>
 
-          <div id="info">
+          <!--div id="info">
             <h3>votos</h3>
           </div>
 
@@ -77,12 +81,19 @@
           </div>
           <input type="range" name="price" class="slider" min="1" max="60" value="40" step="1" min-with-suffix="1€" max-with-suffix="60€">
         </div>
+
+        <p class="description open-sans">Click on the polygons</p>
+        <div id="controls"-->
+          <div id="content" onclick="updateVotes()"></div>
+        
       </section>
       <br />
       
     </div>
+    
+</div>
   </aside>
-  
+
   <!-- script with map and layers -->
   
     <script class="screen">
@@ -145,9 +156,9 @@
       `);*/
      
       const source2 = new carto.source.GeoJSON(puestos2);
-      
+     
       const viz2 = new carto.Viz(`
-
+        @Name: $Name
         @votos: ($votos) / 0.2
         @style: ramp(linear($votos,1,10),[#B10026, #FC4E2A, #FD8D3C, #FEB24C, #FFFFB2])
         width: @votos
@@ -160,7 +171,7 @@
 
     // layer instantiation //
 
-      const layer2 = new carto.Layer('puestos', source2, viz2);
+    const layer2 = new carto.Layer('puestos', source2, viz2);
       
   // source-layer3 declaration  //
       
@@ -179,7 +190,19 @@
       const layer3 = new carto.Layer('barrios', source3, viz3);     
       // putting layers together on the map //
      
-      //layer.addTo(map, 'watername_ocean');
+      const source4 = new carto.source.GeoJSON(barrios);
+      
+      const viz4 = new carto.Viz(`
+        width: 3
+        color: black
+        strokeWidth: 0.5
+        strokeColor: #191970
+        
+      `);
+
+    // layer instantiation //
+
+      const layer4 = new carto.Layer('barrios', source4, viz4);
      
       function setComunas() {
         if($("#comunas").is(':checked')) {
@@ -189,19 +212,90 @@
           console.log('nothing')
           layer.remove()
          }  
-         }
+      }
     
     
       function setNeighborhood() {
-      layer2.addTo(map, 'watername_ocean');
+        if($("#Neighborhood").is(':checked')) {
+          layer3.addTo(map, 'watername_ocean');
+          console.log('checked')
+         }else{
+          console.log('nothing')
+          layer3.remove()
+         }  
+      
       }
       
-
+      layer2.addTo(map, 'watername_ocean');
       function setCandidate() {
-      layer3.addTo(map, 'watername_ocean');
+        if($("#candidate").is(':checked')) {
+          layer2.addTo(map, 'watername_ocean');
+          console.log('checked')
+         }else{
+          console.log('nothing')
+          layer2.remove()
+         }  
+      }
+
+      function setPlace() {
+        if($("#place").is(':checked')) {
+          layer4.addTo(map, 'watername_ocean');
+          console.log('checked')
+         }else{
+          console.log('nothing')
+          layer4.remove()
+         }  
       }
 
      // INTERACTIVITY ///
+       // define popup
+       const popup = new mapboxgl.Popup({
+          closeButton: false,
+          closeOnClick: false
+       });
+       
+       // define interactivity
+
+     const interactivity = new carto.Interactivity(layer2);
+      interactivity.on('featureHover', updateVotes)
+     function updateVotes(event) {
+      /*let content = '';
+      for (let feature of event.features) {
+        content += `
+          <div class="container">
+            <h3 class="h3">${feature.variables.votos.value} votos </h3>
+            <h3 class="open-sans">${feature.variables.Name.value}</h3>
+          </div>
+        `;
+       */
+        
+        
+        //popup
+        if (event.features.length > 0) {
+          const vars = event.features[0].variables;
+          popup.setHTML(`
+          <div>
+            <h3 class ="h4">votos por punto de votacion: </h3>
+            <h3 class ="open-sans"> ${vars.Name.value}</h3>
+            <p class="description open-sans">votos obtenidos:  ${vars.votos.value}</h3>
+          </div>
+          `);
+          popup.setLngLat([event.coordinates.lng, event.coordinates.lat]);
+          if (!popup.isOpen()) {
+            popup.addTo(map);
+          }
+        } else {
+            popup.remove();
+        }
+      
+        // end popup
+      }
+
+      document.getElementById('content').innerHTML = content;
+    
+    function hideLoader() {
+      document.getElementById('loader').style.opacity = '0';
+    }
     
     </script>
   
