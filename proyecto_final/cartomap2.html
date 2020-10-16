@@ -10,7 +10,9 @@
   
   <script type="text/javascript" src="comunas_parte1.js"></script>
   <script type="text/javascript" src="puestos2.js"></script>
-  <script type="text/javascript" src="Barrios.js"></script>
+  <script type="text/javascript" src="barrio.js"></script>
+  <script type="text/javascript" src="comunasmy.js"></script>
+  
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://libs.cartocdn.com/carto-vl/v1.4.4/carto-vl.min.js"></script>
   <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js"></script>
@@ -75,13 +77,11 @@
           <!--div id="info">
             <h3>votos</h3>
           </div>
-
           <div class="widget">
             <p class="open-sans">muestra por rango de votos  <span class="js-price-placeholder">min-max</span></p>
           </div>
           <input type="range" name="price" class="slider" min="1" max="60" value="40" step="1" min-with-suffix="1€" max-with-suffix="60€">
         </div>
-
         <p class="description open-sans">Click on the polygons</p>
         <div id="controls"-->
           <div id="content" onclick="updateVotes()"></div>
@@ -123,11 +123,12 @@
 
       // source-layer1  declaration //
 
-      const source1 = new carto.source.GeoJSON(comunas3);
+      const source1 = new carto.source.GeoJSON(com);
       
       const viz = new carto.Viz(`
-       color:black
-        
+       color: opacity(black, 0.1)
+       strokeColor: black
+       style: ramp(linear($votos,1,10),[#FC4E2A, #FFFFB2, #FEB24C, #FD8D3C, #B10026])
       `);
 
       //  layer instantiation //
@@ -147,7 +148,6 @@
         @g_min: globalMIN(@clusterAverage)
         @g_max: globalMAX(@clusterAverage)
         @color: ramp(linear(@clusterAverage, @g_min, @g_max), [blue, turquoise, yellow, red])
-
         width: 20
         color: opacity(@color, 0.5)
         strokeWidth: 0
@@ -155,18 +155,17 @@
     
       `);*/
      
-      const source2 = new carto.source.GeoJSON(puestos2);
-     
+      const source2 = new carto.source.GeoJSON(votos);
+     // width ; @votos
       const viz2 = new carto.Viz(`
         @Name: $Name
-        @votos: ($votos) / 0.2
-        @style: ramp(linear($votos,1,10),[#B10026, #FC4E2A, #FD8D3C, #FEB24C, #FFFFB2])
-        width: @votos
-        color: opacity(@style, 0.8)
-        strokeWidth: 2
-        strokeColor: opacity(@style, 0.8)
-
-        
+        @votos: ($votos) / 0.4
+        @style: ramp(linear($votos,1,10),[#FC4E2A, #FFFFB2, #FEB24C, #FD8D3C, #B10026])
+        width: 80
+        color: opacity(@style, 0.6)
+        strokeWidth: 0.5
+        strokeColor: opacity(@style, 0.4)
+        symbol: image('https://cartodb-libs.global.ssl.fastly.net/cartodbui/assets/unversioned/images/alphamarker.png')
       `);
 
     // layer instantiation //
@@ -175,11 +174,11 @@
       
   // source-layer3 declaration  //
       
-  const source3 = new carto.source.GeoJSON(barrios);
+  const source3 = new carto.source.GeoJSON(votos);
       
       const viz3 = new carto.Viz(`
-        width: 3
-        color: black
+        width: 5
+        color: opacity(black, 0.1)
         strokeWidth: 0.5
         strokeColor: #191970
         
@@ -190,10 +189,10 @@
       const layer3 = new carto.Layer('barrios', source3, viz3);     
       // putting layers together on the map //
      
-      const source4 = new carto.source.GeoJSON(barrios);
+      const source4 = new carto.source.GeoJSON(votos);
       
       const viz4 = new carto.Viz(`
-        width: 3
+        width: 10
         color: black
         strokeWidth: 0.5
         strokeColor: #191970
@@ -231,6 +230,29 @@
         if($("#candidate").is(':checked')) {
           layer2.addTo(map, 'watername_ocean');
           console.log('checked')
+
+          const interactivity = new carto.Interactivity(layer2);
+          interactivity.on('featureHover', updateVotes)
+          function updateVotes(event) {
+        
+      //popup
+        if (event.features.length > 0) {
+          const vars = event.features[0].variables;
+          popup.setHTML(`
+          <div>
+            <h3 class ="h4">votos por punto de votacion: </h3>
+            <h3 class ="open-sans"> ${vars.Name.value}</h3>
+            <p class="description open-sans">votos obtenidos:  ${vars.votos.value}</h3>
+          </div>
+          `);
+          popup.setLngLat([event.coordinates.lng, event.coordinates.lat]);
+          if (!popup.isOpen()) {
+            popup.addTo(map);
+          }
+        } else {
+            popup.remove();  // end popup
+        }
+      }
          }else{
           console.log('nothing')
           layer2.remove()
